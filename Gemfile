@@ -10,6 +10,8 @@ gem 'rails', '4.1.1'
 gem 's3_direct_upload'
 gem 'sass-rails', '~> 4.0.3'
 gem 'uglifier', '>= 1.3.0'
+gem 'sprockets'
+gem 'rails_12factor', group: :production
 
 group :development do
   gem 'annotate'
